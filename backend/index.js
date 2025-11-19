@@ -7,7 +7,7 @@ const fs = require("fs"); // No longer needed for file reading, but keep for cle
 // --- API and App Setup ---
 const app = express();
 app.use(cors({
-  origin: "https://tr-scrap.vercel.app/", // frontend URL
+  origin: "https://tr-scrap.vercel.app", // frontend URL
   methods: ["GET", "POST"],
   credentials: true
 }));
