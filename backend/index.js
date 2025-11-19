@@ -12,7 +12,7 @@ app.use(cors({
   credentials: true
 }));
 const port = 3000;
-const genAI = new GoogleGenerativeAI("AIzaSyCaVxkHNqSjm46Mk_wvutPubeUTBnjRF9Q");
+const genAI = new GoogleGenerativeAI("AIzaSyC5YYZqbsEsjAC8y67bjYSvGYgDaB1tlbs");
 
 // --- Multer Setup (In-Memory) ---
 // --- 1. THIS IS THE MAIN CHANGE ---
