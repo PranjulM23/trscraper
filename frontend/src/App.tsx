@@ -32,7 +32,7 @@ export default function App() {
     formData.append("marksheetImage", file);
 
     try {
-      const res = await fetch("https://trscraper-ys3d.vercel.app/api/verify-marksheet", {
+      const res = await fetch("https://trscraper.onrender.com/api/verify-marksheet", {
         method: "POST",
         body: formData,
       });
